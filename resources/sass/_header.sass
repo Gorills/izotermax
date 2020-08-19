@@ -1,0 +1,117 @@
+.header
+    width: 100%
+    margin: 0 auto
+
+
+    &--fixed
+
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+
+
+
+
+    // .header__top
+    &__top
+        width: 100%
+        margin: 0 auto
+        padding: 25px 0
+        background: -moz-linear-gradient(0deg, rgba(209,32,36,1) 0%, rgba(243,147,20,1) 50%, rgba(209,32,36,1) 100%) /* ff3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(209,32,36,1)), color-stop(50%, rgba(243,147,20,1)), color-stop(100%, rgba(209,32,36,1))) /* safari4+,chrome */
+        background: -webkit-linear-gradient(0deg, rgba(209,32,36,1) 0%, rgba(243,147,20,1) 50%, rgba(209,32,36,1) 100%) /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(0deg, rgba(209,32,36,1) 0%, rgba(243,147,20,1) 50%, rgba(209,32,36,1) 100%) /* opera 11.10+ */
+        background: -ms-linear-gradient(0deg, rgba(209,32,36,1) 0%, rgba(243,147,20,1) 50%, rgba(209,32,36,1) 100%) /* ie10+ */
+        background: linear-gradient(90deg, rgba(209,32,36,1) 0%, rgba(243,147,20,1) 50%, rgba(209,32,36,1) 100%) /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D12024', endColorstr='#D12024',GradientType=1 ) /* ie6-9 */
+    // .header__inner
+
+    &__inner
+        width: 100%
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+    // .header__logo-wrapper
+    &__logo-wrapper
+        width: 33%
+        text-align: start
+
+    // .header__logo
+
+    &__logo
+        height: 50px
+    // .header__logo-link
+
+    &__logo-link
+        display: block
+
+    // .header__contacts
+
+    &__contacts
+        width: 33%
+        text-align: center
+
+
+    &__contacts-text
+        margin-bottom: 20px
+        color: #ffffff
+
+    // .header__phone
+    &__phone
+        text-decoration: none
+        color: #ffffff
+        font-weight: 700
+        font-size: 20px
+        &:hover
+            color: #000000
+
+
+    // .header__popup
+
+    &__popup
+        width: 33%
+        text-align: end
+
+
+    // .header__bottom
+
+    &__bottom
+        width: 100%
+        margin: 0 auto
+        padding: 5px
+        text-align: center
+        background-color: #000000
+
+
+    // .header__nav
+    &__nav
+        display: inline-block
+        margin: 0 auto
+    // .header__list
+
+    &__list
+        list-style: none
+        display: flex
+        li + li
+            margin-left: 15px
+
+    // .header__link
+
+    &__link
+        display: inline-block
+
+    &__link
+        margin-left: 15px
+        text-decoration: none
+        @include SegoeUIBold
+        color: #ffffff
+
+        &:hover
+            color: $second-color
+
+
+.container
+

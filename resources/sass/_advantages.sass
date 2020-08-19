@@ -1,0 +1,44 @@
+.advantages
+    width: 100%
+    margin: 0 auto
+    padding: $sectoion-padding
+    background-color: #000000
+
+    // .advantages__inner
+
+    &__inner
+        width: 100%
+        margin: 0 auto
+
+
+    &__title
+        color: #ffffff
+
+
+    // .advantages__row
+
+    &__row
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-gap: 40px
+    // .advantages__item
+
+    &__item
+
+        text-align: center
+        i
+            color: $second-color
+            margin-bottom: 20px
+            font-size: 50px
+    // .advantages__item-title
+
+    &__item-title
+        text-transform: uppercase
+        font-size: 18px
+        @include CirceBold
+        margin-bottom: 20px
+        color: #ffffff
+    // .advantages__text
+
+    &__text
+        color: #c7c7c7
