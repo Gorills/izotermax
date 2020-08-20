@@ -11,6 +11,11 @@
         margin: 0 auto
         display: grid
         grid-template-columns: repeat(4, 1fr)
+        @media (max-width: 768px)
+            grid-template-columns: repeat(2, 1fr)
+
+        @media (max-width: 480px)
+            grid-template-columns: 1fr
     // .portfolio__item
 
     &__item
@@ -41,6 +46,8 @@
         z-index: 2
         text-align: center
         transition: $transition
+        @media (max-width: 480px)
+            opacity: 100%
     // .portfolio__title
 
     &__title
@@ -64,3 +71,5 @@
         left: 50%
         transform: translate(-50%, -50%)
         object-fit: cover
+        @media (max-width: 480px)
+            opacity: 30%

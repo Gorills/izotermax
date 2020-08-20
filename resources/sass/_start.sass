@@ -4,7 +4,8 @@
 
     height: calc(100vh - 170px)
     min-height: 560px
-
+    @media (max-width: 992px)
+        height: 100vh
 
 
     &__item
@@ -41,14 +42,24 @@
         font-size: 80px
         @include CirceBold
         text-transform: uppercase
-
+        @media (max-width: 768px)
+            font-size: 44px
+        @media (max-width: 480px)
+            font-size: 38px
+        @media (max-width: 320px)
+            font-size: 30px
     &__subtitle
         display: block
         font-size: 35px
         margin-bottom: 40px
-
+        @media (max-width: 768px)
+            font-size: 28px
+        @media (max-width: 768px)
+            font-size: 20px
     &__text
         margin-bottom: 60px
+        @media (max-width: 768px)
+            margin-bottom: 30px
 
 
     &__btn-wrapper
@@ -58,3 +69,7 @@
         display: flex
         align-items: center
         justify-content: space-between
+        @media (max-width: 768px)
+            flex-direction: column
+            a + a
+                margin-top: 20px

@@ -16,10 +16,7 @@
             <div class="header__inner">
                 <div class="header__logo-wrapper">
                     @if($home == $_SERVER['REQUEST_URI'])
-
                         <img src="{{ URL::asset('images/logo.png') }}" alt="Изотермакс" class="header__logo">
-
-
                     @else
                         <a href="{{ url('/') }}" class="header__logo-link">
                             <img src="{{ URL::asset('images/logo.png') }}" alt="Изотермакс" class="header__logo">
