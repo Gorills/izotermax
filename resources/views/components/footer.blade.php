@@ -56,20 +56,20 @@
                         <a href="{{ url('/') }}" class="footer__menu-link">Главная</a>
                     </div>
                     <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">Теплоизоляция трубопровода</a>
+                        <a href="{{ url('/promyshlennaya-teploizolyaciya/teploizolyaciya-truboprovodov') }}" class="footer__menu-link">Теплоизоляция трубопровода</a>
                     </div>
                     <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">Теплоизоляция оборудования</a>
+                        <a href="{{ url('/promyshlennaya-teploizolyaciya/teploizolyaciya-oborudovaniya-i-pomeshchenij') }}" class="footer__menu-link">Теплоизоляция оборудования</a>
                     </div>
                     <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">Изделия из металла</a>
+                        <a href="{{ url('/izdeliya-iz-metalla') }}" class="footer__menu-link">Изделия из металла</a>
                     </div>
 
                     <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">О компании</a>
+                        <a href="{{ url('/about') }}" class="footer__menu-link">О компании</a>
                     </div>
                     <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">Контакты</a>
+                        <a href="{{ url('/contacts') }}" class="footer__menu-link">Контакты</a>
                     </div>
 
 

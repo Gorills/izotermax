@@ -13,7 +13,21 @@
 
 @section('content')
 
+    <?php $pages = 'Ошибка 404' ?>
 
+    @component('components.breadcrumb')
+        {{--        @slot('title') Промышленная теплоизоляция @endslot--}}
+
+
+        @slot('parent') Главная @endslot
+        {{--        @slot('prev') Предыдущая @endslot--}}
+
+        @slot('active') Ошибка 404 @endslot
+        @slot('activelink')  @endslot
+
+
+
+    @endcomponent
 
     <div class="error">
         <div class="container">

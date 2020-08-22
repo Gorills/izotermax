@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="{{ URL::asset('css/slick.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/slick-theme.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/site.css?').('v.1.0.0') }}">
-    <link rel="stylesheet" href="{{URL::asset('css/owl.theme.default.min.css')}}">
+
+
+
+
 
     <script src="https://kit.fontawesome.com/0af96d350a.js" crossorigin="anonymous"></script>
     <title>@yield('title')</title>
@@ -68,9 +74,12 @@
 
 @endcomponent
 
+
+
 @component('components.popup')
 
 @endcomponent
+
 
 
 

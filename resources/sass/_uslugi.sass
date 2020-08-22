@@ -1,0 +1,70 @@
+.uslugi
+    width: 100%
+    margin: 0 auto
+    padding: $sectoion-padding
+    background-color: #000
+    color: #ffffff
+    position: relative
+    overflow: hidden
+    &__bg
+        z-index: 1
+        @include img-center
+        opacity: 10%
+
+    // .uslugi__inner
+
+    &__inner
+        width: 100%
+        margin: 0 auto
+        position: relative
+        z-index: 2
+    // .uslugi__row
+
+    &__row
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        @media (max-width: 768px)
+            flex-direction: column
+
+    // .uslugi__item
+
+    &__item
+
+        border: $border
+        margin: 0 auto 20px
+        position: relative
+        display: flex
+        align-items: center
+        height: 150px
+        width: 320px
+        overflow: hidden
+        text-decoration: none
+        text-transform: uppercase
+        background-color: #000000
+        text-align: center
+        color: #ffffff
+        transition: $transition
+        @media (max-width: 320px)
+            height: 280px
+            width: 280px
+    @media (max-width: 768px)
+        &__item + &__item
+            margin-top: 20px
+
+        &:hover
+            transform: scale(1.05)
+    // .uslugi__title
+
+    &__title
+        margin: 0 auto
+        position: relative
+        z-index: 2
+        font-size: 25px
+    // .uslugi__img
+
+    &__img
+        @include img-center
+        z-index: 1
+        opacity: 40%
+        object-fit: cover

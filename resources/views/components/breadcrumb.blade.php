@@ -1,14 +1,7 @@
-
-
-
-
-
-
-
 <div class="breadcrumb">
     <div class="container">
         <div class="breadcrumb__inner">
-            <h2 class="breadcrumb__title">{{ $title }}</h2>
+{{--            <h2 class="breadcrumb__title">{{ $title }}</h2>--}}
 
 
             <ul class="breadcrumb__list" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -52,5 +45,5 @@
         </div>
     </div>
 
-    <img src="{!! $img ?? '' !!}" alt="{{ $title }}" class="breadcrumb__img">
+{{--    <img src="{!! $img ?? '' !!}" alt="{{ $title }}" class="breadcrumb__img">--}}
 </div>

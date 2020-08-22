@@ -9,7 +9,7 @@
 
 
 <?php $home = '/' ?>
-<div class="header">
+<header class="header">
 
     <div class="header__top">
         <div class="container">
@@ -54,26 +54,35 @@
                         </li>
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                            <a class="header__link" href="{{ url('/') }}" itemprop="url">Промышленное утепление</a>
+                            <a class="header__link" href="{{ url('/promyshlennaya-teploizolyaciya') }}" itemprop="url">Промышленное утепление</a>
                             <meta itemprop="name" content="Промышленное утепление" />
                         </li>
 
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                            <a class="header__link" href="{{ url('/') }}" itemprop="url">Изделия из металла</a>
+                            <a class="header__link" href="{{ url('/izdeliya-iz-metalla') }}" itemprop="url">Изделия из металла</a>
                             <meta itemprop="name" content="Изделия из металла" />
+                        </li>
+
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                            <a class="header__link" href="{{ url('/price') }}" itemprop="url">Цены</a>
+                            <meta itemprop="name" content="Цены" />
+                        </li>
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                            <a class="header__link" href="{{ url('/portfolio') }}" itemprop="url">Наши работы</a>
+                            <meta itemprop="name" content="Цены" />
                         </li>
 
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                            <a class="header__link" href="{{ url('/') }}" itemprop="url">О компании</a>
+                            <a class="header__link" href="{{ url('/about') }}" itemprop="url">О компании</a>
                             <meta itemprop="name" content="О компании" />
                         </li>
 
 
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                            <a class="header__link" href="{{ url('/') }}" itemprop="url">Контакты</a>
+                            <a class="header__link" href="{{ url('/contacts') }}" itemprop="url">Контакты</a>
                             <meta itemprop="name" content="Контакты" />
                         </li>
                     </ul>
@@ -84,5 +93,5 @@
 
 
 
-</div>
+</header>
 

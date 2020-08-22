@@ -14,7 +14,7 @@
 @section('content')
 
 
-    <?php $type = 'Главная'; ?>
+    <?php $type = 'Главная' ?>
 
 
     <section class="start">
@@ -35,7 +35,7 @@
 
 
                             <div class="start__btn-wrapper">
-                                <a href="#" class="btn btn__accent">Подробнее</a>
+                                <a href="{{ url('/promyshlennaya-teploizolyaciya') }}" class="btn btn__accent">Подробнее</a>
                                 <a href="#" class="btn btn__second show_popup">Заказать звонок</a>
                             </div>
                         </div>
@@ -154,7 +154,7 @@
                     ИзоТерМакс также занимается обработкой металла. Изготовлением и монтажом различных изделий из листового металла, проектированием инженерных систем.
 
                 </p>
-                <a href="#" class="btn btn__second about__btn">Подробнее</a>
+                <a href="{{ url('/about') }}" class="btn btn__second about__btn">Подробнее</a>
 
 
 
@@ -198,52 +198,10 @@
 
 
 
+    @component('components.portfolio')
 
 
-    <section class="portfolio">
-        <div class="container">
-            <h2 class="title">Наши работы</h2>
-        </div>
-
-        <div class="portfolio__row">
-
-            <a href="#" class="portfolio__item">
-                <div class="portfolio__wrapper">
-                    <h3 class="portfolio__title">г.Могилев. Беларусь. Завод KRONOSPAN</h3>
-                    <p class="portfolio__text">Дата сдачи проекта: 30.03.2016</p>
-                    <p class="portfolio__btn btn btn__accent">Подробнее</p>
-                </div>
-                <img src="{{ URL::asset('images/portfolio/1.jpg') }}" alt="" class="portfolio__img">
-            </a>
-            <a href="#" class="portfolio__item">
-                <div class="portfolio__wrapper">
-                    <h3 class="portfolio__title">г.Могилев. Беларусь. Завод KRONOSPAN</h3>
-                    <p class="portfolio__text">Дата сдачи проекта: 30.03.2016</p>
-                    <p class="portfolio__btn btn btn__accent">Подробнее</p>
-                </div>
-                <img src="{{ URL::asset('images/portfolio/2.jpg') }}" alt="" class="portfolio__img">
-            </a>
-            <a href="#" class="portfolio__item">
-                <div class="portfolio__wrapper">
-                    <h3 class="portfolio__title">г.Могилев. Беларусь. Завод KRONOSPAN</h3>
-                    <p class="portfolio__text">Дата сдачи проекта: 30.03.2016</p>
-                    <p class="portfolio__btn btn btn__accent">Подробнее</p>
-                </div>
-                <img src="{{ URL::asset('images/portfolio/3.png') }}" alt="" class="portfolio__img">
-            </a>
-            <a href="#" class="portfolio__item">
-                <div class="portfolio__wrapper">
-                    <h3 class="portfolio__title">г.Могилев. Беларусь. Завод KRONOSPAN</h3>
-                    <p class="portfolio__text">Дата сдачи проекта: 30.03.2016</p>
-                    <p class="portfolio__btn btn btn__accent">Подробнее</p>
-                </div>
-                <img src="{{ URL::asset('images/portfolio/4.jpg') }}" alt="" class="portfolio__img">
-            </a>
-
-
-        </div>
-    </section>
-
+    @endcomponent
 
     <section class="partners">
         <div class="container">

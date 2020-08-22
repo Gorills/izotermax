@@ -11,13 +11,17 @@
 
 
 
-            <textarea class="popup__input" rows= "10" cols= "45" name= "message" placeholder="Сообщение"></textarea>
+            <textarea class="popup__input" rows= "5" cols= "45" name= "message" placeholder="Сообщение"></textarea>
 
             <input type="text" hidden="hidden" name="page" value="{{ $type ?? ''}}">
 
             <button class="popup__btn btn btn__second" type= "submit">Отправить заявку</button>
 
         </form>
+    </div>
+
+    <div class="popup__closer">
+        <i class="fas fa-times"></i>
     </div>
 
 </div>
