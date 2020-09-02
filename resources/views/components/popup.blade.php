@@ -13,10 +13,10 @@
 
             <textarea class="popup__input" rows= "5" cols= "45" name= "message" placeholder="Сообщение"></textarea>
 
-            <input type="text" hidden="hidden" name="page" value="{{ $type ?? ''}}">
+            <input type="text" hidden="hidden" name="page" value="{{ $pages ?? ''}}">
 
             <button class="popup__btn btn btn__second" type= "submit">Отправить заявку</button>
-
+            
         </form>
     </div>
 

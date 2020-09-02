@@ -13,7 +13,7 @@
 
                 <div class="footer__contacts-wrapper">
                     <i class="icon fa fa-phone"></i>
-                    <a href="tel:89528052426" class="footer__contacts-link">8 (3822) 123 - 456</a>
+                    <a href="tel:89528052426" class="footer__contacts-link">8 (3822) 941 - 199</a>
                 </div>
                 <div class="footer__contacts-wrapper">
                     <i class="icon fa fa-clock-o"></i>
@@ -56,14 +56,12 @@
                         <a href="{{ url('/') }}" class="footer__menu-link">Главная</a>
                     </div>
                     <div>
-                        <a href="{{ url('/promyshlennaya-teploizolyaciya/teploizolyaciya-truboprovodov') }}" class="footer__menu-link">Теплоизоляция трубопровода</a>
+                        <a href="{{ url('/promyshlennaya-teploizolyaciya') }}" class="footer__menu-link">Промышленная теплоизоляция</a>
                     </div>
-                    <div>
-                        <a href="{{ url('/promyshlennaya-teploizolyaciya/teploizolyaciya-oborudovaniya-i-pomeshchenij') }}" class="footer__menu-link">Теплоизоляция оборудования</a>
-                    </div>
-                    <div>
-                        <a href="{{ url('/izdeliya-iz-metalla') }}" class="footer__menu-link">Изделия из металла</a>
-                    </div>
+
+{{--                    <div>--}}
+{{--                        <a href="{{ url('/izdeliya-iz-metalla') }}" class="footer__menu-link">Изделия из металла</a>--}}
+{{--                    </div>--}}
 
                     <div>
                         <a href="{{ url('/about') }}" class="footer__menu-link">О компании</a>

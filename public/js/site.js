@@ -11023,14 +11023,17 @@ $('.slick').slick({
 });
 $(window).scroll(function () {
   var height = $(window).scrollTop();
+  var width = $(window).width();
   /*Если сделали скролл на 100px задаём новый класс для header*/
 
-  if (height > 500) {
+  if (height > 500 & width > 992) {
     $('header').addClass('header--fixed');
+    $('body').css('padding-top', '180px');
   } else {
     /*Если меньше 100px удаляем класс для header*/
     $('header').removeClass('header--fixed');
     $('.breadcrumb').removeClass('breadcrumb--active');
+    $('body').css('padding-top', '0');
   }
 });
 $(".menu-btn").click(function (e) {

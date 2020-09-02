@@ -1,24 +1,23 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Промышленная теплоизоляция | ООО Изотермакс ')
+@section('description', 'Теплоизоляция и утепление трубопроводов, оборудования, емкостей, паропроводов на строительных и промышленных объектах в России и ближнем зарубежье по выгодным ценам! Звоните!')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Промышленная теплоизоляция | ООО "Изотермакс" ')
+@section('og:description', 'Теплоизоляция и утепление трубопроводов, оборудования, емкостей, паропроводов на строительных и промышленных объектах в России и ближнем зарубежье по выгодным ценам! Звоните!')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'Промышленная теплоизоляция | ООО "Изотермакс" ')
+@section('twitter:description', 'Теплоизоляция и утепление трубопроводов, оборудования, емкостей, паропроводов на строительных и промышленных объектах в России и ближнем зарубежье по выгодным ценам! Звоните!')
 
 
 @section('content')
 
 
-    <?php $type = 'Главная' ?>
+    @php ($pages = 'Главная')
 
 
     <section class="start">
-
 
 
                 <div class="start__item">
@@ -57,82 +56,41 @@
                 <div class="advantages__row">
 
                     <div class="advantages__item">
-                        <i class="fas fa-globe"></i>
+                        <i class="fas fa-gem"></i>
                         <h3 class="advantages__item-title">
-                            Преимущество
+                            Оборудование
                         </h3>
                         <p class="advantages__text">
-                            Описание преимущества более подробно. Какой то текст,
-                            который может заинтересовать клиентов.
+                            Собственный парк оборудования.
 
                         </p>
 
                     </div>
 
                     <div class="advantages__item">
-                        <i class="fas fa-globe"></i>
+                        <i class="fas fa-users"></i>
                         <h3 class="advantages__item-title">
-                            Преимущество
+                            Работают профессионалы
                         </h3>
                         <p class="advantages__text">
-                            Описание преимущества более подробно. Какой то текст,
-                            который может заинтересовать клиентов.
+                            Квалифицированные сотрудники.
 
                         </p>
 
                     </div>
 
                     <div class="advantages__item">
-                        <i class="fas fa-globe"></i>
+                        <i class="fas fa-map-marked-alt"></i>
                         <h3 class="advantages__item-title">
-                            Преимущество
+                            Выезд
                         </h3>
                         <p class="advantages__text">
-                            Описание преимущества более подробно. Какой то текст,
-                            который может заинтересовать клиентов.
+                            Работаем по всей России и ближнему зарубежью.
 
                         </p>
 
                     </div>
 
-                    <div class="advantages__item">
-                        <i class="fas fa-globe"></i>
-                        <h3 class="advantages__item-title">
-                            Преимущество
-                        </h3>
-                        <p class="advantages__text">
-                            Описание преимущества более подробно. Какой то текст,
-                            который может заинтересовать клиентов.
-
-                        </p>
-
-                    </div>
-
-                    <div class="advantages__item">
-                        <i class="fas fa-globe"></i>
-                        <h3 class="advantages__item-title">
-                            Преимущество
-                        </h3>
-                        <p class="advantages__text">
-                            Описание преимущества более подробно. Какой то текст,
-                            который может заинтересовать клиентов.
-
-                        </p>
-
-                    </div>
-
-                    <div class="advantages__item">
-                        <i class="fas fa-globe"></i>
-                        <h3 class="advantages__item-title">
-                            Преимущество
-                        </h3>
-                        <p class="advantages__text">
-                            Описание преимущества более подробно. Какой то текст,
-                            который может заинтересовать клиентов.
-
-                        </p>
-
-                    </div>
 
 
                 </div>

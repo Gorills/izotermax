@@ -27,7 +27,7 @@
                 <div class="header__contacts">
 
                         <div class="header__contacts-text">Работаем со всеми регионами России, а так же СНГ</div>
-                        <a href="#" class="header__phone">8 (3822) 123 - 456</a>
+                        <a href="#" class="header__phone">8 (3822) 941 - 199</a>
 
                 </div>
 
@@ -59,10 +59,10 @@
                         </li>
 
 
-                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                            <a class="header__link" href="{{ url('/izdeliya-iz-metalla') }}" itemprop="url">Изделия из металла</a>
-                            <meta itemprop="name" content="Изделия из металла" />
-                        </li>
+{{--                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">--}}
+{{--                            <a class="header__link" href="{{ url('/izdeliya-iz-metalla') }}" itemprop="url">Изделия из металла</a>--}}
+{{--                            <meta itemprop="name" content="Изделия из металла" />--}}
+{{--                        </li>--}}
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
                             <a class="header__link" href="{{ url('/price') }}" itemprop="url">Цены</a>

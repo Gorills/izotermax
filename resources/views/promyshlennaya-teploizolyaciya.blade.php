@@ -36,18 +36,73 @@
                 <h2 class="title">Услуги</h2>
                 <div class="uslugi__row">
 
-                    <a href="{{ url('/promyshlennaya-teploizolyaciya/teploizolyaciya-oborudovaniya-i-pomeshchenij') }}" class="uslugi__item">
-                        <h3 class="uslugi__title">Теплоизоляция оборудования и помещений</h3>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/truboprovodov-para-otopleniya') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Трубопроводов пара, отопления</h3>
 
 
-                        <img src="{{ URL::asset('images/uslugi/1.jpg') }}" alt="Теплоизоляция оборудования" class="uslugi__img">
+                        <img src="{{ URL::asset('images/uslugi/1.png') }}" alt="Трубопроводов пара, отопления" class="uslugi__img">
                     </a>
-                    <a href="{{ url('/promyshlennaya-teploizolyaciya/teploizolyaciya-truboprovodov') }}" class="uslugi__item">
-                        <h3 class="uslugi__title">Теплоизоляция трубопроводов</h3>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/truboprovodov-i-emkostej') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Трубопроводов и емкостей</h3>
 
 
-                        <img src="{{ URL::asset('images/uslugi/2.jpg') }}" alt="Теплоизоляция трубопроводов" class="uslugi__img">
+                        <img src="{{ URL::asset('images/uslugi/2.jpg') }}" alt="Трубопроводов и емкостей" class="uslugi__img">
                     </a>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/truboprovodov-holodnoj-vody') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Трубопроводов холодной воды</h3>
+
+
+                        <img src="{{ URL::asset('images/uslugi/3.png') }}" alt="Трубопроводов холодной воды" class="uslugi__img">
+                    </a>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/rezervuarov-i-emkostej') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Резервуаров и емкостей</h3>
+
+
+                        <img src="{{ URL::asset('images/uslugi/4.png') }}" alt="Резервуаров и емкостей" class="uslugi__img">
+                    </a>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/vozduhovodov-i-ventilyatorov') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Воздуховодов и вентиляторов</h3>
+
+
+                        <img src="{{ URL::asset('images/uslugi/5.png') }}" alt="Воздуховодов и вентиляторов" class="uslugi__img">
+                    </a>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/bolshih-vertikalnyh-emkostej') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Больших вертикальных емкостей</h3>
+
+
+                        <img src="{{ URL::asset('images/uslugi/6.png') }}" alt="Больших вертикальных емкостей" class="uslugi__img">
+                    </a>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/teploizolyaciya-ciklonov') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Теплоизоляция циклонов</h3>
+
+
+                        <img src="{{ URL::asset('images/uslugi/7.png') }}" alt="Теплоизоляция циклонов" class="uslugi__img">
+                    </a>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/goryachih-masloprovodov') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Горячих маслопроводов</h3>
+
+
+                        <img src="{{ URL::asset('images/uslugi/8.png') }}" alt="Горячих маслопроводов" class="uslugi__img">
+                    </a>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/gorelok-i-sushilnyh-trub') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Горелок и сушильных труб</h3>
+
+
+                        <img src="{{ URL::asset('images/uslugi/9.png') }}" alt="Горелок и сушильных труб" class="uslugi__img">
+                    </a>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/truboprovodov-otvodov-trojnikov') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Трубопроводов, отводов, тройников</h3>
+
+
+                        <img src="{{ URL::asset('images/uslugi/10.png') }}" alt="Трубопроводов, отводов, тройников" class="uslugi__img">
+                    </a>
+                    <a href="{{ url('/promyshlennaya-teploizolyaciya/teploizolyaciya-oborudovaniya') }}" class="uslugi__item">
+                        <h3 class="uslugi__title">Теплоизоляция оборудования</h3>
+
+
+                        <img src="{{ URL::asset('images/uslugi/11.png') }}" alt="Теплоизоляция оборудования" class="uslugi__img">
+                    </a>
+
 
                 </div>
             </div>
@@ -63,7 +118,7 @@
         <div class="container">
             <div class="page__inner">
 
-                <h1 class="title">Промышленное утепление</h1>
+                <h1 class="title">Промышленная теплоизоляция</h1>
 
                 <img src="{{ URL::asset('/images/promyshlennoe-uteplenie.jpg') }}" alt="" class="page__img">
 
@@ -83,6 +138,11 @@
 
 
             </div>
+
+            @component('components.form')
+
+            @endcomponent
+
         </div>
     </section>
 
