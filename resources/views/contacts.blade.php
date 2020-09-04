@@ -13,7 +13,7 @@
 
 @section('content')
 
-    <?php $pages = 'О компании' ?>
+    <?php $pages = 'Контакты' ?>
 
     @component('components.breadcrumb')
         {{--        @slot('title') Промышленная теплоизоляция @endslot--}}
@@ -28,10 +28,6 @@
 
 
     @endcomponent
-
-
-
-
 
 
 

@@ -1756,6 +1756,10 @@ a {
   color: #ffffff;
 }
 
+.price__wrapper {
+  overflow-x: auto;
+}
+
 .price .стиль1 {
   color: red;
   font-weight: 700;

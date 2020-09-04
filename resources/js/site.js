@@ -103,3 +103,17 @@ jQuery(document).ready(function($) {
 });
 
 
+
+var attri = $('*[data-id]').text();
+
+console.log(attri);
+
+// получим значения data-атрибутов
+var phoneInfo =  $('*').attr('data-id');
+// вывести значения в консоль
+console.log(phoneInfo);
+
+
+
+
+

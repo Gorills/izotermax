@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="{{ URL::asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/slick-theme.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/site.css?').('v.1.0.0') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/site.css?').('v.1.0.1') }}">
 
 
 
@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="@yield('twitter:title')" />
     <meta name="twitter:description" content="@yield('twitter:description')" />
-
+    <meta name="yandex-verification" content="80634fe6d2788dec" />
 
 </head>
 <body>
