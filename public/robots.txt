@@ -1,6 +1,6 @@
 User-agent: *
 
-Disallow: /promyshlennaya-teploizolyaciya/truboprovodov-para-otopleniya
+
 Disallow: /promyshlennaya-teploizolyaciya/truboprovodov-i-emkostej
 Disallow: /promyshlennaya-teploizolyaciya/truboprovodov-holodnoj-vody
 Disallow: /promyshlennaya-teploizolyaciya/rezervuarov-i-emkostej
