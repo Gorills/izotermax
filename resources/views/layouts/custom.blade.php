@@ -64,13 +64,13 @@
 
 
 <div class="phone-btn">
-    <a href="#" class="phone-btn__link">
+    <a href="tel:83822941199" class="phone-btn__link">
         <i class="phone-btn__icon fas fa-phone"></i>
     </a>
 </div>
 
 <div class="whatsapp-btn">
-    <a href="#" class="whatsapp-btn__link">
+    <a href="https://wa.me/79528899470" class="whatsapp-btn__link">
         <i class="whatsapp-btn__icon fab fa-whatsapp"></i>
     </a>
 </div>

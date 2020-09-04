@@ -1656,6 +1656,11 @@ a {
   margin-bottom: 20px;
 }
 
+.page__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .page__list {
   margin-bottom: 20px;
 }
@@ -1728,7 +1733,7 @@ a {
 
 .form {
   width: 100%;
-  max-width: 450px;
+  max-width: 650px;
   margin: 0 auto;
   text-align: center;
 }
@@ -1742,12 +1747,19 @@ a {
   padding: 10px;
 }
 
+@media (max-width: 320px) {
+  .form__input {
+    width: auto;
+  }
+}
+
 .form__input + .form__input {
   margin-top: 20px;
 }
 
 .form__btn {
   margin-top: 20px;
+  display: inline-block;
 }
 
 .price {
@@ -1768,5 +1780,44 @@ a {
 .price .стиль3 {
   color: red;
   font-weight: 700;
+}
+
+.contacts {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+  background-color: #000;
+  color: #ffffff;
+}
+
+.contacts__inner {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contacts__wrapper {
+  margin: 0 auto 40px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contacts__item {
+  display: block;
+}
+
+.contacts__item + .contacts__item {
+  margin-top: 20px;
+}
+
+.contacts__link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.contacts__link:hover {
+  color: #9d231f;
 }
 

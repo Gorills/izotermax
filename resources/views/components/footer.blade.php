@@ -17,7 +17,7 @@
                 </div>
                 <div class="footer__contacts-wrapper">
                     <i class="icon fa fa-clock-o"></i>
-                    <p class="footer__contacts-text">Пн-Вс: 07:00 - 20:00</p>
+                    <p class="footer__contacts-text">Пн-Вс: 09:00 - 18:00</p>
                 </div>
                 {{--                <div class="footer__contacts-wrapper">--}}
                 {{--                    <i class="icon fa fa-location-arrow"></i>--}}

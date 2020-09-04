@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('title', 'Промышленная теплоизоляция. Рассчет стоимости теплоизоляции | ООО Изотермакс')
+@section('description', 'Заказать теплоизоляцию трубопровода, оборудования и помещений по всей России и ближнему зарубежью. Звоните: 8(3822) 941-199')
+@section('keywords', 'промышленная теплоизоляция')
+@section('canonical', 'https://izotermax.ru/promyshlennaya-teploizolyaciya')
+@section('og:title', 'Промышленная теплоизоляция. Рассчет стоимости теплоизоляции | ООО Изотермакс')
+@section('og:description', 'Заказать теплоизоляцию трубопровода, оборудования и помещений по всей России и ближнему зарубежью. Звоните: 8(3822) 941-199')
+@section('og:url', 'https://izotermax.ru/promyshlennaya-teploizolyaciya')
+@section('twitter:title', 'Промышленная теплоизоляция. Рассчет стоимости теплоизоляции | ООО Изотермакс')
+@section('twitter:description', 'Заказать теплоизоляцию трубопровода, оборудования и помещений по всей России и ближнему зарубежью. Звоните: 8(3822) 941-199')
 
 
 @section('content')
@@ -33,7 +33,7 @@
     <section class="uslugi">
         <div class="container">
             <div class="uslugi__inner">
-                <h2 class="title">Услуги</h2>
+                <h2 class="title">Услуги промышленной теплоизоляции</h2>
                 <div class="uslugi__row">
 
                     <a href="{{ url('/promyshlennaya-teploizolyaciya/truboprovodov-para-otopleniya') }}" class="uslugi__item">
@@ -122,20 +122,44 @@
 
                 <img src="{{ URL::asset('/images/promyshlennoe-uteplenie.jpg') }}" alt="" class="page__img">
 
-                <p class="page__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque delectus exercitationem, fugit perspiciatis quaerat tempore vero. Doloremque esse id iste laudantium modi, nesciunt quasi recusandae repellendus suscipit unde vel?</p>
+                <p class="page__text">
+                    Наша компания уже несколько лет успешно занимается промышленной теплоизоляцией всех видов. Мы работаем во всех регионах России и даже в ближнем зарубежье.
+                    Собственный парк техники и обученные специалисты помогают нам сокращать расходы для наших клиентов и делать все работы по промышленной теплоизоляции на
+                    самом высоком уровне.
 
+
+                </p>
+                <p class="page__text">
+                    Исходя из специфики объекта, бюджета мы предлагаем заказчикам варианты теплоизоляции оборудования. По ссылке в меню сайта вы можете ознакомится с
+                    примерами выполненного монтажа по утеплению труб,  емкостей, оборудования и прочих объектов.
+                    Наша компания имеет ряд постоянных заказчиков, обращающихся к нам по ряду причин:
+                </p>
                 <ul class="page__list">
-                    <li class="page__li">1</li>
-                    <li class="page__li">2</li>
-                    <li class="page__li">3</li>
-                    <li class="page__li">4</li>
-                    <li class="page__li">5</li>
+                    <li class="page__li">берем заботы по теплоизоляции на себя;</li>
+                    <li class="page__li">предлагаем низкие цены;</li>
+                    <li class="page__li">контролируем график работ;</li>
+                    <li class="page__li">и сроки сдачи объекта. </li>
                 </ul>
 
-                <p class="page__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque delectus exercitationem, fugit perspiciatis quaerat tempore vero. Doloremque esse id iste laudantium modi, nesciunt quasi recusandae repellendus suscipit unde vel?</p>
-                <p class="page__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque delectus exercitationem, fugit perspiciatis quaerat tempore vero. Doloremque esse id iste laudantium modi, nesciunt quasi recusandae repellendus suscipit unde vel?</p>
-                <p class="page__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque delectus exercitationem, fugit perspiciatis quaerat tempore vero. Doloremque esse id iste laudantium modi, nesciunt quasi recusandae repellendus suscipit unde vel?</p>
+                <p class="page__text">
+                    Мы - компания, которая специализируется на теплоизоляции промышленных объектов и оборудования, это основной профиль нашей деятельности. Что позволяет нам
+                    соблюдать сроки и держать на низком уровне цены без ущерба качеству промышленной теплоизоляции в России.
+                </p>
 
+                <h2 class="page__title">Рассчитать стоимость промышленной теплоизоляции.</h2>
+
+                <p class="page__text">
+
+                    Для расчета стоимости теплоизоляции на Вашем объекте просто заполните форму ниже и наши специалисты свяжутся с Вами в
+                    кратчайшие сроки. Не имеет значения в каком регионе Вы находитесь - мы сможем удивить Вас приятными ценами и качеством наших
+                    услуг.
+
+                </p>
+
+                <p class="page__text">
+                    Так же мы принимаем заявки на расчет стоимости на нашу почту <a href="mailto:ferrum_art@mail.ru">ferrum_art@mail.ru</a> и по телефону
+                    <a href="tel:83822941199">8 (3822) 941-199</a>.
+                </p>
 
             </div>
 

@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
 @section('title', 'Теплоизоляция трубопроводов пара и отопления | ООО Изотермакс')
-@section('description', 'Расчитать стоимость теплоизоляции трубопроводов пара и отопления с выездом. Звоните: 8 (3822) 941-199')
-@section('keywords', 'Теплоизоляция трубопроводов пара и отопления')
-@section('canonical', 'https://izotermax.ru/promyshlennaya-teploizolyaciya/truboprovodov-para-otopleniya')
-@section('og:title', 'Теплоизоляция трубопроводов пара и отопления | ООО Изотермакс')
-@section('og:description', 'Расчитать стоимость теплоизоляции трубопроводов пара и отопления с выездом. Звоните: 8 (3822) 941-199')
-@section('og:url', 'https://izotermax.ru/promyshlennaya-teploizolyaciya/truboprovodov-para-otopleniya')
-@section('twitter:title', 'Теплоизоляция трубопроводов пара и отопления | ООО Изотермакс')
-@section('twitter:description', 'Расчитать стоимость теплоизоляции трубопроводов пара и отопления с выездом. Звоните: 8 (3822) 941-199')
+@section('description', 'Расчитать стоимость теплоизоляции трубопроводов пара и отопления с выездом ')
+@section('keywords', '')
+@section('canonical', '')
+@section('og:title', '')
+@section('og:description', '')
+@section('og:url', '')
+@section('twitter:title', '')
+@section('twitter:description', '')
 
 
 @section('content')
@@ -16,11 +16,11 @@
     <?php $pages = 'Трубопроводов пара, отопления' ?>
 
     @component('components.breadcrumb')
-
+        {{--        @slot('title') Промышленная теплоизоляция @endslot--}}
 
 
         @slot('parent') Главная @endslot
-                @slot('prev') Теплоизоляция @endslot
+                @slot('prev') Промышленная теплоизоляция @endslot
         @slot('link') {{ url('/promyshlennaya-teploizolyaciya') }} @endslot
 
         @slot('active') Трубопроводов пара, отопления @endslot
