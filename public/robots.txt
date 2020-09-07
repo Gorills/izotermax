@@ -1,15 +1,3 @@
 User-agent: *
-
-
-Disallow: /promyshlennaya-teploizolyaciya/truboprovodov-i-emkostej
-Disallow: /promyshlennaya-teploizolyaciya/truboprovodov-holodnoj-vody
-Disallow: /promyshlennaya-teploizolyaciya/rezervuarov-i-emkostej
-Disallow: /promyshlennaya-teploizolyaciya/vozduhovodov-i-ventilyatorov
-Disallow: /promyshlennaya-teploizolyaciya/bolshih-vertikalnyh-emkostej
-Disallow: /promyshlennaya-teploizolyaciya/teploizolyaciya-ciklonov
-Disallow: /promyshlennaya-teploizolyaciya/goryachih-masloprovodov
-Disallow: /promyshlennaya-teploizolyaciya/gorelok-i-sushilnyh-trub
-Disallow: /promyshlennaya-teploizolyaciya/truboprovodov-otvodov-trojnikov
-Disallow: /promyshlennaya-teploizolyaciya/teploizolyaciya-oborudovaniya
-
+Disallow:
 
