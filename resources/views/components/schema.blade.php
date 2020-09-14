@@ -1,13 +1,21 @@
 <script type="application/ld+json"> {
     "@context": "http://schema.org",
     "@type": "Organization",
-    "name": "Прораб70",
-    "alternateName": "Прораб70",
-    "description": "Ремонт и отделка квартир",
-    "url": "https://prorab70.ru/",
-    "email": "prorab70ru@yandex.ru",
-    "legalName": "Прораб70",
-    "logo": "https://prorab70.ru/images/logo.png",
-    "telephone": "+79528052426"
+    "name": "ООО Изотермакс",
+    "alternateName": "Изотермакс",
+    "description": "Промышленная теплоизоляция",
+    "url": "https://izotermax.ru/",
+    "email": "ferrum_art@mail.ru",
+    "legalName": "Изотермакс",
+    "logo": "https://izotermax.ru/images/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "RU",
+      "addressLocality": "Томск",
+      "addressRegion": "Томская область",
+      "postalCode": "634024",
+      "streetAddress": "ул. Профсоюзная, 28/1 ст4"
+    },
+    "telephone": "+73822941199"
   }
 </script>
