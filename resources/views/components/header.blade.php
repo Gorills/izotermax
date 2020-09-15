@@ -27,7 +27,7 @@
                 <div class="header__contacts">
 
                         <div class="header__contacts-text">Работаем со всеми регионами России, а так же СНГ</div>
-                        <a href="#" class="header__phone">8 (3822) 941 - 199</a>
+                        <a href="tel:83822941199" class="header__phone">8 (3822) 941 - 199</a>
 
                 </div>
 

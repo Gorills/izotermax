@@ -149,15 +149,9 @@ a {
   align-items: center;
   position: relative;
   overflow: hidden;
-  height: 50px;
+  padding: 10px 0;
   background-color: #000000;
   border-top: 1px solid rgba(196, 196, 196, 0.4);
-}
-
-@media only screen and (max-width: 480px) {
-  .breadcrumb {
-    height: 50px;
-  }
 }
 
 .breadcrumb--active {
