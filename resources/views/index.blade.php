@@ -3,10 +3,10 @@
 @section('title', 'Промышленная теплоизоляция | ООО Изотермакс ')
 @section('description', 'Теплоизоляция и утепление трубопроводов, оборудования, емкостей, паропроводов на строительных и промышленных объектах в России и ближнем зарубежье по выгодным ценам! Звоните!')
 @section('keywords', '')
-@section('canonical', '')
+@section('canonical', 'https://izotermax.ru/')
 @section('og:title', 'Промышленная теплоизоляция | ООО "Изотермакс" ')
 @section('og:description', 'Теплоизоляция и утепление трубопроводов, оборудования, емкостей, паропроводов на строительных и промышленных объектах в России и ближнем зарубежье по выгодным ценам! Звоните!')
-@section('og:url', '')
+@section('og:url', 'https://izotermax.ru/')
 @section('twitter:title', 'Промышленная теплоизоляция | ООО "Изотермакс" ')
 @section('twitter:description', 'Теплоизоляция и утепление трубопроводов, оборудования, емкостей, паропроводов на строительных и промышленных объектах в России и ближнем зарубежье по выгодным ценам! Звоните!')
 
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="{{ URL::asset('images/banner/banner-1.jpg') }}" alt="" class="start__img">
+                    <img src="{{ URL::asset('images/banner/banner-1.jpg') }}" alt="Теплоизоляция трубопроводов и оборудования" class="start__img">
                 </div>
 
 
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-        <img src="{{ URL::asset('images/bg-1.jpg') }}" alt="" class="about__img">
+        <img src="{{ URL::asset('images/bg-1.jpg') }}" alt="Теплоизоляция трубопроводов и оборудования" class="about__img">
     </section>
 
 
@@ -150,7 +150,7 @@
             </div>
         </div>
 
-        <img src="{{URL::asset('images/bg-2.jpg')}}" alt="" class="about-2__img">
+        <img src="{{URL::asset('images/bg-2.jpg')}}" alt="Теплоизоляция трубопроводов и оборудования" class="about-2__img">
 
     </div>
 

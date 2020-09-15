@@ -3,7 +3,7 @@
 @section('title', 'Контакты компании Изотермакс в Томске')
 @section('description', 'Как с нами связаться и адрес организации в Томске')
 @section('keywords', '')
-@section('canonical', '')
+@section('canonical', 'https://izotermax.ru/contacts')
 @section('og:title', 'Контакты компании Изотермакс в Томске')
 @section('og:description', 'Как с нами связаться и адрес организации в Томске')
 @section('og:url', '')

@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Портфолио компании Изотермакс')
+@section('description', 'Наши работы по утеплению и теплоизоляции объектов по всей России')
 @section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('canonical', 'https://izotermax.ru/portfolio')
+@section('og:title', 'Портфолио компании Изотермакс')
+@section('og:description', 'Наши работы по утеплению и теплоизоляции объектов по всей России')
+@section('og:url', 'https://izotermax.ru/portfolio')
+@section('twitter:title', 'Портфолио компании Изотермакс')
+@section('twitter:description', 'Наши работы по утеплению и теплоизоляции объектов по всей России')
 
 
 @section('content')

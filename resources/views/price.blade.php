@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Цены на теплоизоляцию трубопроводов и оборудования | ООО Изотермакс')
+@section('description', 'Стоимость теплоизоляции трубопроводов и оборудования от компании Изотермакс. Звоните: 8 (3822) 941-199')
 @section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('canonical', 'https://izotermax.ru/price')
+@section('og:title', 'Цены на теплоизоляцию трубопроводов и оборудования | ООО Изотермакс')
+@section('og:description', 'Стоимость теплоизоляции трубопроводов и оборудования от компании Изотермакс. Звоните: 8 (3822) 941-199')
+@section('og:url', 'https://izotermax.ru/price')
+@section('twitter:title', 'Цены на теплоизоляцию трубопроводов и оборудования | ООО Изотермакс')
+@section('twitter:description', 'Стоимость теплоизоляции трубопроводов и оборудования от компании Изотермакс. Звоните: 8 (3822) 941-199')
 
 
 @section('content')

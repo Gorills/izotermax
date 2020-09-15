@@ -120,7 +120,7 @@
 
                 <h1 class="title">Промышленная теплоизоляция</h1>
 
-                <img src="{{ URL::asset('/images/promyshlennoe-uteplenie.jpg') }}" alt="" class="page__img">
+                <img src="{{ URL::asset('/images/promyshlennoe-uteplenie.jpg') }}" alt="Промышленная теплоизоляция" class="page__img">
 
                 <p class="page__text">
                     Наша компания уже несколько лет успешно занимается промышленной теплоизоляцией всех видов. Мы работаем во всех регионах России и даже в ближнем зарубежье.
