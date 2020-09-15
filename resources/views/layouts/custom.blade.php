@@ -23,8 +23,8 @@
     <meta property="og:title" content="@yield('og:title')" />
     <meta property="og:description" content="@yield('og:description')" />
     <meta property="og:url" content="@yield('og:url')" />
-    <meta name="theme-color" content="#b0a171">
-    <meta property="og:site_name" content="https://prorab70.ru/" />
+    <meta name="theme-color" content="#9d231f">
+    <meta property="og:site_name" content="https://izotermax.ru/" />
     <meta property="og:image" content="{{ URL::asset('images/og.jpg') }}" />
     <meta property="vk:image" content="{{ URL::asset('images/og.jpg') }}" />
     <meta name="twitter:card" content="summary" />

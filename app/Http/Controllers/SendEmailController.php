@@ -29,7 +29,7 @@ class SendEmailController extends Controller
             'page'      => $request->type
         );
 
-        Mail::to('prorab70ru@yandex.ru')->send(new SendMail($data));
+        Mail::to('gorivanickiy@gmail.com')->send(new SendMail($data));
         return view('thank-you');
 
 
