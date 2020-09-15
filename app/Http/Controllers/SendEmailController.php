@@ -25,7 +25,6 @@ class SendEmailController extends Controller
 
             'name'      => $request->name,
             'tel'       => $request->tel,
-            'message'   => $request->message,
             'page'      => $request->type
         );
 
