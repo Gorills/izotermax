@@ -22,7 +22,6 @@
     <meta property="vk:image" content="{{ URL::asset('images/og.jpg') }}" />
     <meta property="og:image" content="{{ URL::asset('images/og.jpg') }}" />
     <meta property="og:image" content="{{ URL::asset('images/og-mess.jpg') }}" />
-
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="@yield('twitter:title')" />
     <meta name="twitter:description" content="@yield('twitter:description')" />
