@@ -19,8 +19,10 @@
     <meta property="og:url" content="@yield('og:url')" />
     <meta name="theme-color" content="#9d231f">
     <meta property="og:site_name" content="https://izotermax.ru/" />
-    <meta property="og:image" content="{{ URL::asset('images/og.jpg') }}" />
     <meta property="vk:image" content="{{ URL::asset('images/og.jpg') }}" />
+    <meta property="og:image" content="{{ URL::asset('images/og.jpg') }}" />
+    <meta property="og:image" content="{{ URL::asset('images/og-mess.jpg') }}" />
+
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="@yield('twitter:title')" />
     <meta name="twitter:description" content="@yield('twitter:description')" />
