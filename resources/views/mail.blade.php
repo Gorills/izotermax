@@ -9,12 +9,7 @@
 
 <p>Телефон: {{ $data['tel'] }}</p>
 
-
-@if($data['message'])
-    <p>Сообщение: {{ $data['message'] }}</p>
-@else
-
-@endif
+    
 
 
 @if($data['page'])
