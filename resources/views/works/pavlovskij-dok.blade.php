@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'г.Барнаул, п.Павловск. Павловский ДОК')
+@section('description', 'Изолирование трубопроводов и различного оборудования диаметром 2000мм')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'г.Барнаул, п.Павловск. Павловский ДОК')
+@section('og:description', 'Изолирование трубопроводов и различного оборудования диаметром 2000мм')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'г.Барнаул, п.Павловск. Павловский ДОК')
+@section('twitter:description', 'Изолирование трубопроводов и различного оборудования диаметром 2000мм')
 
 
 @section('content')

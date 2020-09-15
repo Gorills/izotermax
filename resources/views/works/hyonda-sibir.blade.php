@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'г.Асино. ООО Хёнда-Сибирь')
+@section('description', 'Модернизация завода по производству МДФ плит')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'г.Асино. ООО Хёнда-Сибирь')
+@section('og:description', 'Модернизация завода по производству МДФ плит')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'г.Асино. ООО Хёнда-Сибирь')
+@section('twitter:description', 'Модернизация завода по производству МДФ плит')
 
 
 @section('content')

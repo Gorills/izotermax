@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Контакты компании Изотермакс в Томске')
+@section('description', 'Как с нами связаться и адрес организации в Томске')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Контакты компании Изотермакс в Томске')
+@section('og:description', 'Как с нами связаться и адрес организации в Томске')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'Контакты компании Изотермакс в Томске')
+@section('twitter:description', 'Как с нами связаться и адрес организации в Томске')
 
 
 @section('content')

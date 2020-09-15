@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'г.Могилев. Беларусь. Завод KRONOSPAN')
+@section('description', 'Восстановление теплоизоляции трубопроводов и различного оборудования диаметром 2000мм .')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'г.Могилев. Беларусь. Завод KRONOSPAN')
+@section('og:description', 'Восстановление теплоизоляции трубопроводов и различного оборудования диаметром 2000мм .')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'г.Могилев. Беларусь. Завод KRONOSPAN')
+@section('twitter:description', 'Восстановление теплоизоляции трубопроводов и различного оборудования диаметром 2000мм .')
 
 
 @section('content')

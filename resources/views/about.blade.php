@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'О нашей компании ИзоТерМакс')
+@section('description', 'Информация о компании ИзоТерМакс')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'О нашей компании ИзоТерМакс')
+@section('og:description', 'Информация о компании ИзоТерМакс')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'О нашей компании ИзоТерМакс')
+@section('twitter:description', 'Информация о компании ИзоТерМакс')
 
 
 @section('content')

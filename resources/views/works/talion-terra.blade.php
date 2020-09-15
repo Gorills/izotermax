@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Талион Терра. Тверская область, г.Торжок ул. Старицкая 96А')
+@section('description', 'Изолирование трубопроводов и различного оборудования диаметром от 80мм- 425мм .')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Талион Терра. Тверская область, г.Торжок ул. Старицкая 96А')
+@section('og:description', 'Изолирование трубопроводов и различного оборудования диаметром от 80мм- 425мм .')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'Талион Терра. Тверская область, г.Торжок ул. Старицкая 96А')
+@section('twitter:description', 'Изолирование трубопроводов и различного оборудования диаметром от 80мм- 425мм .')
 
 
 @section('content')
