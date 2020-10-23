@@ -59,10 +59,10 @@
                         </li>
 
 
-{{--                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">--}}
-{{--                            <a class="header__link" href="{{ url('/izdeliya-iz-metalla') }}" itemprop="url">Изделия из металла</a>--}}
-{{--                            <meta itemprop="name" content="Изделия из металла" />--}}
-{{--                        </li>--}}
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                            <a class="header__link" href="{{ url('/izdeliya-iz-metalla') }}" itemprop="url">Изделия из металла</a>
+                            <meta itemprop="name" content="Изделия из металла" />
+                        </li>
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
                             <a class="header__link" href="{{ url('/price') }}" itemprop="url">Цены</a>

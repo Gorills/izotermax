@@ -11098,12 +11098,6 @@ jQuery(document).ready(function ($) {
     }
   });
 });
-var attri = $('*[data-id]').text();
-console.log(attri); // получим значения data-атрибутов
-
-var phoneInfo = $('*').attr('data-id'); // вывести значения в консоль
-
-console.log(phoneInfo);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),

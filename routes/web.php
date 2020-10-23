@@ -80,33 +80,9 @@ Route::get('/promyshlennaya-teploizolyaciya/teploizolyaciya-oborudovaniya', func
 });
 
 
-//Route::get('/izdeliya-iz-metalla', function () {
-//    return view('izdeliya-iz-metalla');
-//});
-//Route::get('/izdeliya-iz-metalla/dobornye-ehlementy', function () {
-//    return view('metall.dobornye-ehlementy');
-//});
-//Route::get('/izdeliya-iz-metalla/vodostochnye-sistemy', function () {
-//    return view('metall.vodostochnye-sistemy');
-//});
-//Route::get('/izdeliya-iz-metalla/otlivy', function () {
-//    return view('metall.otlivy');
-//});
-//Route::get('/izdeliya-iz-metalla/otkosy', function () {
-//    return view('metall.otkosy');
-//});
-//Route::get('/izdeliya-iz-metalla/ventilyacionnye-kolpaki', function () {
-//    return view('metall.ventilyacionnye-kolpaki');
-//});
-//Route::get('/izdeliya-iz-metalla/kolpaki-na-zabory', function () {
-//    return view('metall.kolpaki-na-zabory');
-//});
-//Route::get('/izdeliya-iz-metalla/vozduhovody', function () {
-//    return view('metall.vozduhovody');
-//});
-//Route::get('/izdeliya-iz-metalla/ventilyaciya', function () {
-//    return view('metall.ventilyaciya');
-//});
+
+Route::get('/izdeliya-iz-metalla', 'Metall@index');
+
 
 
 Route::get('/kontakty', function () {
@@ -121,6 +97,28 @@ Route::get('/price', function () {
 Route::get('/sendemail', 'SendEmailController@index');
 
 Route::post('/sendemail/send', 'SendEmailController@send');
+
+
+
+Route::get('/izdeliya-iz-metalla/{slug}', 'MetallController@metall')->name('metall');
+
+
+Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware' => ['auth']], function (){
+    Route::get('/', 'DashboardController@dashboard')->name('admin.dashboard');
+    Route::resource('/stock', 'StockController', ['as'=>'admin']);
+    Route::resource('/event', 'EventController', ['as'=>'admin']);
+    Route::resource('/work', 'WorkController', ['as'=>'admin']);
+
+    Route::get('/store', 'StoreController@store')->name('admin.store');
+    Route::resource('/category', 'CategoryController', ['as'=>'admin']);
+    Route::resource('/product', 'ProductController', ['as'=>'admin']);
+});
+
+
+
+//Route::get('/works', 'WorksController@index')->name('works');
+
+
 
 
 Auth::routes();

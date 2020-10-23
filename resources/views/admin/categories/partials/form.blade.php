@@ -9,6 +9,14 @@
 </div>
 
 <div class="form-group">
+    <label>Родительская категория</label>
+    <select name="parent_id" class="form-control">
+        <option value="0">-- без родительской категории --</option>
+        @include('admin.categories.partials.categories', ['categories'=>$categories])
+    </select>
+</div>
+
+<div class="form-group">
     <label>Описание</label>
     <textarea class="form-control" placeholder="Описание (превью)" name="description">{{ $category->description ?? "" }}</textarea>
 </div>
