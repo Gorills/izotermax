@@ -16,15 +16,19 @@
     </select>
 </div>
 
-<div class="form-group">
-    <label>Описание</label>
-    <textarea class="form-control" placeholder="Описание (превью)" name="description">{{ $category->description ?? "" }}</textarea>
-</div>
 
 <div class="form-group">
     <label>Полный текст описания</label>
-    <textarea class="form-control" placeholder="Описание" name="full_description">{{ $category->full_description ?? "" }}</textarea>
+    <textarea class="form-control" placeholder="Описание" name="description">{{ $category->description ?? "" }}</textarea>
 </div>
+
+
+<div class="form-group">
+    <label>Подзаголовок</label>
+    <textarea class="form-control" placeholder="Подзаголовок H3" name="description_short">{{ $category->description_short ?? "" }}</textarea>
+</div>
+
+
 
 <div class="form-group">
     <label>Текст для страницы 1</label>

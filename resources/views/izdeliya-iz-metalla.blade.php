@@ -17,17 +17,13 @@
 
     @component('components.breadcrumb')
 
-
-
         @slot('parent') Главная @endslot
 
         @slot('active') Изделия из металла @endslot
         @slot('activelink') {{ url('/izdeliya-iz-metalla') }} @endslot
 
 
-
     @endcomponent
-
 
     <section class="uslugi">
         <div class="container">
@@ -47,13 +43,11 @@
 
 
 
-
-
                 </div>
             </div>
         </div>
 
-        <img src="{{ URL::asset('images/bg-4.jpg') }}" alt="Услуги промышленного утепления" class="uslugi__bg">
+        <img src="{{ URL::asset('images/bg-4.jpg') }}" alt="Изделия из металла" class="uslugi__bg">
 
     </section>
 
@@ -65,7 +59,7 @@
 
 {{--                <h1 class="title">Изделия из металла</h1>--}}
 
-{{--                <img src="{{ URL::asset('/images/promyshlennoe-uteplenie.jpg') }}" alt="" class="page__img">--}}
+{{--                <img src="{{ URL::asset('/images/promyshlennoe-uteplenie.jpg') }}" alt="Изделия из металла" class="page__img">--}}
 
 {{--                <p class="page__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque delectus exercitationem, fugit perspiciatis quaerat tempore vero. Doloremque esse id iste laudantium modi, nesciunt quasi recusandae repellendus suscipit unde vel?</p>--}}
 

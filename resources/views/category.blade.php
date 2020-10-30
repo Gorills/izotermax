@@ -64,9 +64,14 @@
 
                 <img src="{{ URL::asset('/storage'.'/'. $category->image) }}" alt="" class="page__img">
 
-                <p class="page__text">{{ $category->text_one ?? '' }}</p>
-                <p class="page__text">{{ $category->text_two ?? ''}}</p>
-                <p class="page__text">{{ $category->text_three ?? ''}}</p>
+
+                <p class="page__text">{!! $category->description ?? '' !!}</p>
+
+
+                <h3 class="page__text">{{ $category->description_short ?? '' }}</h3>
+                <p class="page__text">{!! $category->text_one ?? '' !!} </p>
+                <p class="page__text">{!! $category->text_two ?? '' !!}</p>
+                <p class="page__text">{!! $category->text_three ?? '' !!}</p>
 
 
 
