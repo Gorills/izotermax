@@ -42,7 +42,7 @@
                     <div class="posad__item">
 
                         <div class="posad__wrapper">
-                            <img src="{{ URL::asset('/storage'.'/'. $product->image) }}" alt="" class="posad__img">
+                            <img src="{{ URL::asset('/storage'.'/'. $product->image) }}" alt="{{ $product->title }}" class="posad__img">
                         </div>
 
                         <div class="posad__text-wrapper">
@@ -67,7 +67,7 @@
 
                 <h2 class="title">{{ $category->title }} купить в Томске</h2>
 
-                <img src="{{ URL::asset('/storage'.'/'. $category->image) }}" alt="" class="page__img">
+                <img src="{{ URL::asset('/storage'.'/'. $category->image) }}" alt="{{ $category->title }} купить в Томске" class="page__img">
 
 
                 <p class="page__text">{!! $category->description ?? '' !!}</p>
