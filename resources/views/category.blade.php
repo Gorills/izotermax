@@ -38,13 +38,18 @@
                 <div class="posad__row">
 
                 @foreach($category->products as $product)
+
                     <div class="posad__item">
+
                         <div class="posad__wrapper">
                             <img src="{{ URL::asset('/storage'.'/'. $product->image) }}" alt="" class="posad__img">
                         </div>
-                        <h3 class="posad__title">{{ $product->title }}</h3>
-                        <p class="posad__description">{{ $product->description }}</p>
-                        <p class="posad__price">{{ $product->price }} руб</p>
+
+                        <div class="posad__text-wrapper">
+                            <h3 class="posad__title">{{ $product->title }}</h3>
+                            <p class="posad__description">{!! $product->description !!}</p>
+                            <p class="posad__price">{{ $product->price }}</p>
+                        </div>
 
                     </div>
                     @endforeach
