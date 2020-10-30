@@ -1694,10 +1694,22 @@ a {
   align-items: center;
 }
 
+@media (max-width: 576px) {
+  .posad__item {
+    flex-direction: column;
+  }
+}
+
 .posad__wrapper {
   text-align: center;
   position: relative;
   margin-right: 20px;
+}
+
+@media (max-width: 576px) {
+  .posad__wrapper {
+    margin: 0 auto;
+  }
 }
 
 .posad__img {

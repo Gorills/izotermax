@@ -26,6 +26,11 @@
         margin: 0 auto 20px
         display: flex
         align-items: center
+
+        @media (max-width: 576px)
+            flex-direction: column
+
+
     // .posad__wrapper
 
     &__wrapper
@@ -36,6 +41,8 @@
         //width: 100%
         //height: 200px
         margin-right: 20px
+        @media (max-width: 576px)
+            margin: 0 auto
     // .posad__img
 
     &__img
