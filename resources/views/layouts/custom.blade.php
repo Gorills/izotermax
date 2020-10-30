@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ URL::asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/slick-theme.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/site.css?').('v.1.0.2') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/site.css?').('v.1.0.3') }}">
     <script src="https://kit.fontawesome.com/0af96d350a.js" crossorigin="anonymous"></script>
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')"/>

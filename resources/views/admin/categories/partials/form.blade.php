@@ -19,7 +19,7 @@
 
 <div class="form-group">
     <label>Полный текст описания</label>
-    <textarea class="form-control" placeholder="Описание" name="description">{{ $category->description ?? "" }}</textarea>
+    <textarea class="form-control ckeditor" placeholder="Описание" name="description">{{ $category->description ?? "" }}</textarea>
 </div>
 
 
@@ -31,19 +31,11 @@
 
 
 <div class="form-group">
-    <label>Текст для страницы 1</label>
-    <textarea class="form-control" placeholder="Сео текст" name="text_one">{{ $category->text_one ?? "" }}</textarea>
+    <label>Текст для страницы</label>
+    <textarea class="form-control ckeditor" placeholder="Сео текст" name="text_one">{{ $category->text_one ?? "" }}</textarea>
 </div>
 
-<div class="form-group">
-    <label>Текст для страницы 2</label>
-    <textarea class="form-control" placeholder="Сео текст" name="text_two">{{ $category->text_two ?? "" }}</textarea>
-</div>
 
-<div class="form-group">
-    <label>Текст для страницы 3</label>
-    <textarea class="form-control" placeholder="Сео текст" name="text_three">{{ $category->text_three ?? "" }}</textarea>
-</div>
 
 
 <div class="form-group">
