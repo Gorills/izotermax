@@ -12,7 +12,7 @@
 
 <div class="form-group">
     <label>Описание</label>
-    <textarea class="form-control" placeholder="Описание (превью)" name="description">{{ $product->description ?? "" }}</textarea>
+    <textarea class="form-control ckeditor" placeholder="Описание (превью)" name="description">{{ $product->description ?? "" }}</textarea>
 </div>
 
 <div class="form-group">
